@@ -3,7 +3,7 @@ FROM python:3.8.5-slim-buster
 
 WORKDIR /app
 
-ENV BRANCH_NAME Pyrogram
+ENV BRANCH_NAME Telethon
 ENV DEBIAN_FRONTEND noninteractive
 # http://bugs.python.org/issue19846
 # https://github.com/SpEcHiDe/PublicLeech/pull/97
